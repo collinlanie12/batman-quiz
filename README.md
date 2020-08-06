@@ -16,3 +16,6 @@
 - [ ] When questions are answered incorrectly, time is subtracted from timer.
 - [ ] When timer reaches 0 or all questions are answered the quiz is over.
 - [ ] When the game is over, user can save initials and score to highscore.html page.
+
+## Link Website:
+[Collin's Batman-Quiz Website](https://collinlanie12.github.io/batman-quiz/)
