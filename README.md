@@ -20,5 +20,5 @@
 ## Link Website:
 [Collin's Batman-Quiz Website](https://collinlanie12.github.io/batman-quiz/)
 
-![image of Start Page]([img/highscore.png](https://i.imgur.com/4fWWFnO.png))
-![image of High Score Page]([img/highscore.png](https://i.imgur.com/MPBqfpu.png))
+![image of Start Page]([img/highscore.png](https://github.com/collinlanie12/batman-quiz/img/start-page.png))
+![image of High Score Page]([img/highscore.png](https://github.com/collinlanie12/batman-quiz/img/highscore.png))
