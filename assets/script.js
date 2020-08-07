@@ -19,6 +19,7 @@ var question5El = document.querySelector("#question5");
 var timeEl = document.querySelector("#time");
 
 startButtonEl.addEventListener("click", start);
+
 function start() {
     containerEl.style.display = "none";
     container2El.style.display = "block";
@@ -229,8 +230,6 @@ var initials = [];
 showInit();
 
 function renderInit() {
-    //initialList.innerHTML = "";
-
     for (var i = 0; i < initials.length; i++) {
         var init = initials[i];
 
