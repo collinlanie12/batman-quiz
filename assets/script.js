@@ -25,10 +25,6 @@ function start() {
     timeEl.style.display = "block";
     timer();
     question1();
-    // question2();
-    // question3();
-    // question4();
-    // question5();
 }
 
 var count = 75;
@@ -88,8 +84,6 @@ function clickedQ1(buttonID) {
 
 function question2() {
     question2El.textContent = batQuestions[1].question;
-
-    console.log(question2El.textContent);
 
     var a = document.getElementById('a2');
     a.textContent = batQuestions[1].answerChoicesArr[0];
