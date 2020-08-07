@@ -225,7 +225,7 @@ var batQuestions = [
 ]
 var initialList = document.querySelector("#initial-list");
 var submitButtonEl = document.querySelector("#submitInit");
-var initialInput = document.querySelector("#initial-text");
+var initialInput = document.querySelector("#initials");
 var initials = [];
 showInit();
 
