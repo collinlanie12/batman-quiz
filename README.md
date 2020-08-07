@@ -8,13 +8,13 @@
 > <ins>SO THAT</ins> I can gauge my progress compared to my peers
 
 ## Task To Be Completed:
-- [ ] Create layout using bootstrap implementation.
-- [ ] Have connection between html files.
-- [ ] Create start button for quiz.
-- [ ] Create timer that starts when presented with a question.
-- [ ] When one question is answered, responds with other questions.
-- [ ] When questions are answered incorrectly, time is subtracted from timer.
-- [ ] When timer reaches 0 or all questions are answered the quiz is over.
+- [x] Create layout using bootstrap implementation.
+- [x] Have connection between html files.
+- [x] Create start button for quiz.
+- [x] Create timer that starts when presented with a question.
+- [x] When one question is answered, responds with other questions.
+- [x] When questions are answered incorrectly, time is subtracted from timer.
+- [x] When timer reaches 0 or all questions are answered the quiz is over.
 - [ ] When the game is over, user can save initials and score to highscore.html page.
 
 ## Link Website:
