@@ -18,7 +18,6 @@ var question5El = document.querySelector("#question5");
 
 var timeEl = document.querySelector("#time");
 
-showInit();
 
 startButtonEl.addEventListener("click", start);
 
@@ -264,3 +263,4 @@ function addInitials(event) {
     renderInit();
 }
 submitButtonEl.addEventListener("submit", addInitials)
+showInit();
