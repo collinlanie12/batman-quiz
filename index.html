@@ -32,13 +32,16 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid">
+    <div id="time">
+        <h1>Time:</h1>
+    </div>
+    <div id="container" class="container-fluid">
         <div class="row top1">
             <div class="col-md-12 center-block text-center">
                 <h1 id="bat-start">How much do you know about the Bat-Family?</h1>
             </div>
         </div>
-        <div class="row top2">
+        <div class="row top2 start-message">
             <div class="col-md-2"></div>
             <div class="col-md-8 center-block text-center">
                 <p id="bat-start-text">This quiz will challenge your knowledge about the heroes, villians, and
@@ -48,14 +51,148 @@
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row">
+        <div class="row top2">
             <div class="col-md-3"></div>
-            <div class="col-md-6 center-block text-center top2">
+            <div id="start-button" class="col-md-6 center-block text-center">
                 <button type="button" class="btn btn-dark btn-lg btn-block">Start</button>
             </div>
             <div class="col-md-3"></div>
         </div>
     </div>
+
+    <div id="container2" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1 id="question1"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button id="a1" type="button" onclick="clickedQ1(a1)" class="btn btn-light btn-lg btn-block">Answer
+                    1</button>
+                <button id="b1" type="button" onclick="clickedQ1(b1)" class="btn btn-light btn-lg btn-block">Answer
+                    2</button>
+                <button id="c1" type="button" onclick="clickedQ1(c1)" class="btn btn-light btn-lg btn-block">Answer
+                    3</button>
+                <button id="d1" type="button" onclick="clickedQ1(d1)" class="btn btn-light btn-lg btn-block">Answer
+                    4</button>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+
+    <div id="container3" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1 id="question2"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button id="a2" type="button" onclick="clickedQ2(a2)" class="btn btn-light btn-lg btn-block">Answer
+                    1</button>
+                <button id="b2" type="button" onclick="clickedQ2(b2)" class="btn btn-light btn-lg btn-block">Answer
+                    2</button>
+                <button id="c2" type="button" onclick="clickedQ2(c2)" class="btn btn-light btn-lg btn-block">Answer
+                    3</button>
+                <button id="d2" type="button" onclick="clickedQ2(d2)" class="btn btn-light btn-lg btn-block">Answer
+                    4</button>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+
+    <div id="container4" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1 id="question3"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button id="a3" type="button" onclick="clickedQ3(a3)" class="btn btn-light btn-lg btn-block">Answer
+                    1</button>
+                <button id="b3" type="button" onclick="clickedQ3(b3)" class="btn btn-light btn-lg btn-block">Answer
+                    2</button>
+                <button id="c3" type="button" onclick="clickedQ3(c3)" class="btn btn-light btn-lg btn-block">Answer
+                    3</button>
+                <button id="d3" type="button" onclick="clickedQ3(d3)" class="btn btn-light btn-lg btn-block">Answer
+                    4</button>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+
+    <div id="container5" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1 id="question4"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button id="a4" type="button" onclick="clickedQ4(a4)" class="btn btn-light btn-lg btn-block">Answer
+                    1</button>
+                <button id="b4" type="button" onclick="clickedQ4(b4)" class="btn btn-light btn-lg btn-block">Answer
+                    2</button>
+                <button id="c4" type="button" onclick="clickedQ4(c4)" class="btn btn-light btn-lg btn-block">Answer
+                    3</button>
+                <button id="d4" type="button" onclick="clickedQ4(d4)" class="btn btn-light btn-lg btn-block">Answer
+                    4</button>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+
+    <div id="container6" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1 id="question5"></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <button id="a5" type="button" onclick="clickedQ5(a5)" class="btn btn-light btn-lg btn-block">Answer
+                        1</button>
+                    <button id="b5" type="button" onclick="clickedQ5(b5)" class="btn btn-light btn-lg btn-block">Answer
+                        2</button>
+                    <button id="c5" type="button" onclick="clickedQ5(c5)" class="btn btn-light btn-lg btn-block">Answer
+                        3</button>
+                    <button id="d5" type="button" onclick="clickedQ5(d5)" class="btn btn-light btn-lg btn-block">Answer
+                        4</button>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container7" class="container-fluid">
+        <div class="row top1">
+            <div class="col-md-12 center-block text-center text-white">
+                <h1>Enter Your Initials To Save High Score!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="initial-text"></label>
+                        <input type="initials" class="form-control" id="initials" aria-describedby="initialsEnter"
+                            placeholder="Enter Initials">
+                    </div>
+                    <button onclick="location.href='/batman-quiz/highscore.html';" id="submitInit" type="submit"
+                        class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
 
     <script src="assets/script.js"></script>
     <!-- Optional JavaScript -->

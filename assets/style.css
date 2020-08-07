@@ -12,3 +12,35 @@
 .top2{
     margin-top: 25px;
 }
+#container2{
+    display: none;
+}
+#container3{
+    display: none;
+}
+#container4{
+    display: none;
+}
+#container5{
+    display: none;
+}
+#container6{
+    display: none;
+}
+#container7{
+    display: none;
+}
+#time{
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 85%;
+    display: none;
+    font-size: 36px;
+    color: white;
+}
+.high1{
+    margin-top: 25px;
+}
+.text-white{
+    color: white;
+}
