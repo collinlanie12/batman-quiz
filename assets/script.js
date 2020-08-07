@@ -229,7 +229,7 @@ var initials = [];
 showInit();
 
 function renderInit() {
-    initialList.innerHTML = "";
+    //initialList.innerHTML = "";
 
     for (var i = 0; i < initials.length; i++) {
         var init = initials[i];
@@ -251,8 +251,8 @@ function storeInit() {
     localStorage.setItem("initials", JSON.stringify(initials));
 }
 
-submitButtonEl.addEventListener("submit", function (e) {
-    e.preventDefault();
+function addInitials(event) {
+    event.preventDefault();
     var initialText = initialInput.nodeValue.trim();
     if (initialText === "") {
         return;
@@ -262,4 +262,5 @@ submitButtonEl.addEventListener("submit", function (e) {
     initialInput.value = "";
     storeInit();
     renderInit();
-});
+}
+submitButtonEl.addEventListener("submit", addInitials)
